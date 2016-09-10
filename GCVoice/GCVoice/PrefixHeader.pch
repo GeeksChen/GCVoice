@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  GCVoice
+//
+//  Created by 陈潇 on 16/9/10.
+//  Copyright © 2016年 Geeks_Chen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import <iflyMSC/iflyMSC.h>
+#import "PcmPlayer.h"
+#import "TTSConfig.h"
+#import "ISRDataHelper.h"
+#import "IATConfig.h"
+
+
+#ifdef __IPHONE_6_0
+# define ALIGN_CENTER NSTextAlignmentCenter
+#else
+# define ALIGN_CENTER UITextAlignmentCenter
+#endif
+
+#endif /* PrefixHeader_pch */

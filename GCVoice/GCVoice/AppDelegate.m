@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "GCVoiceViewController.h"
 
+#define appID  @"57d2e834"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    GCVoiceViewController *rvc = [[GCVoiceViewController alloc]init];
+    UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:rvc];
+    self.window.rootViewController = nvc;
+    
+    //开启语音服务
+    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@",appID];
+    [IFlySpeechUtility createUtility:initString];
+    
+
+    
     return YES;
 }
 
