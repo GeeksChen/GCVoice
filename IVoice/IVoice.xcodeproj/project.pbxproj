@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652CCA1E21B688330037F6AE /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CCA1221B688330037F6AE /* ISRDataHelper.m */; };
+		652CCA1F21B688330037F6AE /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CCA1421B688330037F6AE /* IATConfig.m */; };
+		652CCA2021B688330037F6AE /* mic_talk_358x358@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652CCA1921B688330037F6AE /* mic_talk_358x358@2x.png */; };
+		652CCA2121B688330037F6AE /* LCVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CCA1A21B688330037F6AE /* LCVoice.m */; };
+		652CCA2221B688330037F6AE /* LCVoiceHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CCA1B21B688330037F6AE /* LCVoiceHud.m */; };
+		652CCA2321B688330037F6AE /* mic_normal_358x358@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652CCA1C21B688330037F6AE /* mic_normal_358x358@2x.png */; };
+		652CCA2421B688330037F6AE /* wave70x117@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652CCA1D21B688330037F6AE /* wave70x117@2x.png */; };
+		652CCA2921B68E370037F6AE /* UIImage+GC.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CCA2521B68E370037F6AE /* UIImage+GC.m */; };
+		652CCA2A21B68E370037F6AE /* UIColor+GC.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CCA2721B68E370037F6AE /* UIColor+GC.m */; };
+		655A74D221B518E600E05E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655A74D121B518E600E05E39 /* AppDelegate.m */; };
+		655A74D521B518E600E05E39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655A74D421B518E600E05E39 /* ViewController.m */; };
+		655A74D821B518E600E05E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655A74D621B518E600E05E39 /* Main.storyboard */; };
+		655A74DA21B518E800E05E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655A74D921B518E800E05E39 /* Assets.xcassets */; };
+		655A74DD21B518E800E05E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655A74DB21B518E800E05E39 /* LaunchScreen.storyboard */; };
+		655A74E021B518E800E05E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655A74DF21B518E800E05E39 /* main.m */; };
+		655A74E721B51E2500E05E39 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74E621B51E2500E05E39 /* iflyMSC.framework */; };
+		655A74EA21B51E3600E05E39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74E921B51E3600E05E39 /* CoreGraphics.framework */; };
+		655A74EC21B51E4000E05E39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74EB21B51E4000E05E39 /* QuartzCore.framework */; };
+		655A74EE21B51E4900E05E39 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74ED21B51E4900E05E39 /* AddressBook.framework */; };
+		655A74F021B51E5200E05E39 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74EF21B51E5200E05E39 /* CoreLocation.framework */; };
+		655A74F221B51E5C00E05E39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74F121B51E5C00E05E39 /* UIKit.framework */; };
+		655A74F421B51E6600E05E39 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74F321B51E6600E05E39 /* AudioToolbox.framework */; };
+		655A74F621B51E7200E05E39 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74F521B51E7200E05E39 /* CoreTelephony.framework */; };
+		655A74F821B51E8000E05E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74F721B51E8000E05E39 /* Foundation.framework */; };
+		655A74FA21B51E8A00E05E39 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74F921B51E8A00E05E39 /* SystemConfiguration.framework */; };
+		655A74FC21B51E9100E05E39 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74FB21B51E9100E05E39 /* AVFoundation.framework */; };
+		655A74FE21B51E9E00E05E39 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74FD21B51E9D00E05E39 /* libc++.tbd */; };
+		655A750021B51EA800E05E39 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 655A74FF21B51EA800E05E39 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		652CCA1221B688330037F6AE /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		652CCA1321B688330037F6AE /* IATConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
+		652CCA1421B688330037F6AE /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
+		652CCA1521B688330037F6AE /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		652CCA1721B688330037F6AE /* LCVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVoice.h; sourceTree = "<group>"; };
+		652CCA1821B688330037F6AE /* LCVoiceHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCVoiceHud.h; sourceTree = "<group>"; };
+		652CCA1921B688330037F6AE /* mic_talk_358x358@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic_talk_358x358@2x.png"; sourceTree = "<group>"; };
+		652CCA1A21B688330037F6AE /* LCVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVoice.m; sourceTree = "<group>"; };
+		652CCA1B21B688330037F6AE /* LCVoiceHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCVoiceHud.m; sourceTree = "<group>"; };
+		652CCA1C21B688330037F6AE /* mic_normal_358x358@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic_normal_358x358@2x.png"; sourceTree = "<group>"; };
+		652CCA1D21B688330037F6AE /* wave70x117@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wave70x117@2x.png"; sourceTree = "<group>"; };
+		652CCA2521B68E370037F6AE /* UIImage+GC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GC.m"; sourceTree = "<group>"; };
+		652CCA2621B68E370037F6AE /* UIImage+GC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GC.h"; sourceTree = "<group>"; };
+		652CCA2721B68E370037F6AE /* UIColor+GC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GC.m"; sourceTree = "<group>"; };
+		652CCA2821B68E370037F6AE /* UIColor+GC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GC.h"; sourceTree = "<group>"; };
+		655A74CD21B518E600E05E39 /* IVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655A74D021B518E600E05E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		655A74D121B518E600E05E39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		655A74D321B518E600E05E39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		655A74D421B518E600E05E39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		655A74D721B518E600E05E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		655A74D921B518E800E05E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		655A74DC21B518E800E05E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		655A74DE21B518E800E05E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655A74DF21B518E800E05E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		655A74E621B51E2500E05E39 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		655A74E921B51E3600E05E39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		655A74EB21B51E4000E05E39 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		655A74ED21B51E4900E05E39 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		655A74EF21B51E5200E05E39 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		655A74F121B51E5C00E05E39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		655A74F321B51E6600E05E39 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		655A74F521B51E7200E05E39 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		655A74F721B51E8000E05E39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		655A74F921B51E8A00E05E39 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		655A74FB21B51E9100E05E39 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		655A74FD21B51E9D00E05E39 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		655A74FF21B51EA800E05E39 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655A74CA21B518E600E05E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655A750021B51EA800E05E39 /* libz.tbd in Frameworks */,
+				655A74FE21B51E9E00E05E39 /* libc++.tbd in Frameworks */,
+				655A74FC21B51E9100E05E39 /* AVFoundation.framework in Frameworks */,
+				655A74FA21B51E8A00E05E39 /* SystemConfiguration.framework in Frameworks */,
+				655A74F821B51E8000E05E39 /* Foundation.framework in Frameworks */,
+				655A74F621B51E7200E05E39 /* CoreTelephony.framework in Frameworks */,
+				655A74F421B51E6600E05E39 /* AudioToolbox.framework in Frameworks */,
+				655A74F221B51E5C00E05E39 /* UIKit.framework in Frameworks */,
+				655A74F021B51E5200E05E39 /* CoreLocation.framework in Frameworks */,
+				655A74EE21B51E4900E05E39 /* AddressBook.framework in Frameworks */,
+				655A74EC21B51E4000E05E39 /* QuartzCore.framework in Frameworks */,
+				655A74EA21B51E3600E05E39 /* CoreGraphics.framework in Frameworks */,
+				655A74E721B51E2500E05E39 /* iflyMSC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652CCA1121B688330037F6AE /* IflyTool */ = {
+			isa = PBXGroup;
+			children = (
+				652CCA1521B688330037F6AE /* ISRDataHelper.h */,
+				652CCA1221B688330037F6AE /* ISRDataHelper.m */,
+				652CCA1321B688330037F6AE /* IATConfig.h */,
+				652CCA1421B688330037F6AE /* IATConfig.m */,
+			);
+			path = IflyTool;
+			sourceTree = "<group>";
+		};
+		652CCA1621B688330037F6AE /* LCVoice */ = {
+			isa = PBXGroup;
+			children = (
+				652CCA1721B688330037F6AE /* LCVoice.h */,
+				652CCA1821B688330037F6AE /* LCVoiceHud.h */,
+				652CCA1921B688330037F6AE /* mic_talk_358x358@2x.png */,
+				652CCA1A21B688330037F6AE /* LCVoice.m */,
+				652CCA1B21B688330037F6AE /* LCVoiceHud.m */,
+				652CCA1C21B688330037F6AE /* mic_normal_358x358@2x.png */,
+				652CCA1D21B688330037F6AE /* wave70x117@2x.png */,
+			);
+			path = LCVoice;
+			sourceTree = "<group>";
+		};
+		655A74C421B518E600E05E39 = {
+			isa = PBXGroup;
+			children = (
+				655A74CF21B518E600E05E39 /* IVoice */,
+				655A74CE21B518E600E05E39 /* Products */,
+				655A74E821B51E3600E05E39 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		655A74CE21B518E600E05E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655A74CD21B518E600E05E39 /* IVoice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655A74CF21B518E600E05E39 /* IVoice */ = {
+			isa = PBXGroup;
+			children = (
+				655A74E621B51E2500E05E39 /* iflyMSC.framework */,
+				655A74D021B518E600E05E39 /* AppDelegate.h */,
+				655A74D121B518E600E05E39 /* AppDelegate.m */,
+				655A74D321B518E600E05E39 /* ViewController.h */,
+				655A74D421B518E600E05E39 /* ViewController.m */,
+				652CCA2821B68E370037F6AE /* UIColor+GC.h */,
+				652CCA2721B68E370037F6AE /* UIColor+GC.m */,
+				652CCA2621B68E370037F6AE /* UIImage+GC.h */,
+				652CCA2521B68E370037F6AE /* UIImage+GC.m */,
+				652CCA1121B688330037F6AE /* IflyTool */,
+				652CCA1621B688330037F6AE /* LCVoice */,
+				655A74D621B518E600E05E39 /* Main.storyboard */,
+				655A74D921B518E800E05E39 /* Assets.xcassets */,
+				655A74DB21B518E800E05E39 /* LaunchScreen.storyboard */,
+				655A74DE21B518E800E05E39 /* Info.plist */,
+				655A74DF21B518E800E05E39 /* main.m */,
+			);
+			path = IVoice;
+			sourceTree = "<group>";
+		};
+		655A74E821B51E3600E05E39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				655A74FF21B51EA800E05E39 /* libz.tbd */,
+				655A74FD21B51E9D00E05E39 /* libc++.tbd */,
+				655A74FB21B51E9100E05E39 /* AVFoundation.framework */,
+				655A74F921B51E8A00E05E39 /* SystemConfiguration.framework */,
+				655A74F721B51E8000E05E39 /* Foundation.framework */,
+				655A74F521B51E7200E05E39 /* CoreTelephony.framework */,
+				655A74F321B51E6600E05E39 /* AudioToolbox.framework */,
+				655A74F121B51E5C00E05E39 /* UIKit.framework */,
+				655A74EF21B51E5200E05E39 /* CoreLocation.framework */,
+				655A74ED21B51E4900E05E39 /* AddressBook.framework */,
+				655A74EB21B51E4000E05E39 /* QuartzCore.framework */,
+				655A74E921B51E3600E05E39 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655A74CC21B518E600E05E39 /* IVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655A74E321B518E800E05E39 /* Build configuration list for PBXNativeTarget "IVoice" */;
+			buildPhases = (
+				655A74C921B518E600E05E39 /* Sources */,
+				655A74CA21B518E600E05E39 /* Frameworks */,
+				655A74CB21B518E600E05E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IVoice;
+			productName = IVoice;
+			productReference = 655A74CD21B518E600E05E39 /* IVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655A74C521B518E600E05E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Geeks_Chen;
+				TargetAttributes = {
+					655A74CC21B518E600E05E39 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 655A74C821B518E600E05E39 /* Build configuration list for PBXProject "IVoice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655A74C421B518E600E05E39;
+			productRefGroup = 655A74CE21B518E600E05E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655A74CC21B518E600E05E39 /* IVoice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		655A74CB21B518E600E05E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655A74DD21B518E800E05E39 /* LaunchScreen.storyboard in Resources */,
+				652CCA2421B688330037F6AE /* wave70x117@2x.png in Resources */,
+				655A74DA21B518E800E05E39 /* Assets.xcassets in Resources */,
+				652CCA2321B688330037F6AE /* mic_normal_358x358@2x.png in Resources */,
+				655A74D821B518E600E05E39 /* Main.storyboard in Resources */,
+				652CCA2021B688330037F6AE /* mic_talk_358x358@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655A74C921B518E600E05E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655A74D521B518E600E05E39 /* ViewController.m in Sources */,
+				652CCA2A21B68E370037F6AE /* UIColor+GC.m in Sources */,
+				652CCA2121B688330037F6AE /* LCVoice.m in Sources */,
+				652CCA1F21B688330037F6AE /* IATConfig.m in Sources */,
+				655A74E021B518E800E05E39 /* main.m in Sources */,
+				652CCA1E21B688330037F6AE /* ISRDataHelper.m in Sources */,
+				652CCA2921B68E370037F6AE /* UIImage+GC.m in Sources */,
+				655A74D221B518E600E05E39 /* AppDelegate.m in Sources */,
+				652CCA2221B688330037F6AE /* LCVoiceHud.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		655A74D621B518E600E05E39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655A74D721B518E600E05E39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		655A74DB21B518E800E05E39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655A74DC21B518E800E05E39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655A74E121B518E800E05E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		655A74E221B518E800E05E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655A74E421B518E800E05E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59K5NL7VPS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IVoice",
+				);
+				INFOPLIST_FILE = IVoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekschen.IVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		655A74E521B518E800E05E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59K5NL7VPS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IVoice",
+				);
+				INFOPLIST_FILE = IVoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekschen.IVoice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655A74C821B518E600E05E39 /* Build configuration list for PBXProject "IVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655A74E121B518E800E05E39 /* Debug */,
+				655A74E221B518E800E05E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655A74E321B518E800E05E39 /* Build configuration list for PBXNativeTarget "IVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655A74E421B518E800E05E39 /* Debug */,
+				655A74E521B518E800E05E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655A74C521B518E600E05E39 /* Project object */;
+}
